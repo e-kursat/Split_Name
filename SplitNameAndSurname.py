@@ -9,6 +9,7 @@ in_student_name = [i.strip() for i in in_student_name if i != ""]
 
 student_name = in_student_name[:-1]
 student_name = " ".join(student_name)
+
 student_surname = in_student_name[-1]
 
 del in_student_name
